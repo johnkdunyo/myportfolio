@@ -47,6 +47,7 @@ const SkillsSection = () => {
                                     <td><span className="badge badge-info">Git</span> {' '}
                                         <span className="badge badge-info">Amazon Web Services (AWS)</span> {' '}
                                         <span className="badge badge-info">PowerBI</span> {' '}
+                                        <span className='badge badge-info'>Matlab</span> {' '}
                                     </td>
                                 </tr>
                                 </tbody>
