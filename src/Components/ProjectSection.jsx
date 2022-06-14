@@ -64,7 +64,7 @@ const ProjectSection = () => {
                                 title='WhatsDev'
                                 imageURL="assets/projects/whatsdev/screenshot1.jpeg"
                                 stacks={['Reactjs', 'Firebase', 'Nodejs', 'Nodejs' ]}
-                                demoURL='/'
+                                demoURL='https://whatsdev.netlify.app/'
                                 githubURL='https://github.com/johnkdunyo/WhatsDev'
                             />
                             <ProjectComponent 
