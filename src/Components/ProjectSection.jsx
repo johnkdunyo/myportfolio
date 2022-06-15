@@ -11,7 +11,7 @@ const ProjectComponent = ({id, title, imageURL, stacks, demoURL, githubURL}) => 
                 <h5 className="card-title text-center">{title}</h5>
                 <div className="">
                     {stacks?.map(stack => (
-                        <p key={stack} className="badge badge-light">• {stack} </p>
+                        <p key={stack} className="badge badge-light mb-0 pb-0">• {stack} </p>
                     ))}
                     {/* <p className="badge badge-light mb-0 pb-0">• Reactjs </p>
                     <span className="badge badge-light">• Reduxjs/tool-kit </span>
@@ -63,15 +63,24 @@ const ProjectSection = () => {
                                 id={3}
                                 title='WhatsDev'
                                 imageURL="assets/projects/whatsdev/screenshot1.jpeg"
-                                stacks={['Reactjs', 'Firebase', 'Nodejs', 'Nodejs' ]}
+                                stacks={['Reactjs', 'Firebase', 'Nodejs', 'nodemailer', 'cron-job' ]}
                                 demoURL='https://whatsdev.netlify.app/'
                                 githubURL='https://github.com/johnkdunyo/WhatsDev'
                             />
                             <ProjectComponent 
                                 id={4}
+                                title='Match the Pairs Game'
+                                imageURL="assets/projects/match-the-pairs/screenshot1.jpeg"
+                                stacks={['Reactjs', 'Chakra-UI', 'firebase']}
+                                demoURL = "https://matchthepairs.netlify.app/"
+                                githubURL = 'https://github.com/johnkdunyo/Match-the-Pairs'
+                            />
+
+                            <ProjectComponent 
+                                id={5}
                                 title='Youtube Clone'
                                 imageURL="assets/projects/youtube-clone/screenshot4.png"
-                                stacks={['Reduxjs/tool-kit', 'Reactjs', 'Axios', 'html-entities', 'Youtube API']}
+                                stacks={['Reduxjs/tool-kit', 'Reactjs', 'Axios', 'Youtube API']}
                                 demoURL = "https://johnkdunyo-youtube-clone.netlify.app/"
                                 githubURL = 'https://github.com/johnkdunyo/React-Youtube-Clone'
                             />
