@@ -29,6 +29,9 @@ const Experience = () => {
                             <p> • Built and optimized a restfulAPI for the company’s lunch ordering application using Nodejs, Expressjs to enhance seamless
                                 lunch ordering in the company
                                 <br/>
+                                • Developed and built the server-side logic, defined and maintained the central database of the company’s lunch application
+                                 to ensure high performance and responsiveness to requests from the front-end
+                                 <br/>
                                 • Developed functional and technical requirements for the lunch ordering application and developed test cases to validate
                                 its functionalities
                             </p>

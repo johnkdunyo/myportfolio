@@ -7,8 +7,8 @@ const AboutSection = () => {
             <div className="row">
                 <div className="col-md-12 mx-auto text-justify">
                     <h4 className="text-center">Hey there!</h4>
-                    <p>I am Junior Fullstack Developer able to build a Web presence from the ground up - from concept, navigation,
-                        layout and programming to UX and SEO. Skilled at writing well-designed, testable and efficient code using
+                    <p>I am Junior Fullstack Developer able to build low-latency, high-availability, and performant applications
+                        from the ground up - from concept, navigation, layout and programming to UX and SEO. Skilled at writing well-designed, testable and efficient code using
                         current best practices in Web development. I am a fast learner, hard worker and team player who is proficient in
                         an array of scripting languages and multimedia Web tools.
                     </p>
