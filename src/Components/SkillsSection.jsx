@@ -24,7 +24,8 @@ const SkillsSection = () => {
                                     <td>Front-End:</td>
                                     <td>
                                         <span className="badge badge-info">Reactjs</span> {' '}
-                                        <span className="badge badge-info">Bootstrap</span> {' '}
+                                        <span className="badge badge-info">Tailwindcss</span> {' '}
+                                        <span className="badge badge-info">Boostrap</span> {' '}
                                         <span className="badge badge-info">jquery</span> {' '}
                                     </td>
                                 </tr>
@@ -33,11 +34,14 @@ const SkillsSection = () => {
                                     <td>
                                         <span className="badge badge-info">Nodejs</span> {' '}
                                         <span className="badge badge-info">Expressjs</span> {' '}
+                                        <span className="badge badge-info">TypeORM</span> {' '}
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>Databases:</td>
-                                    <td><span className="badge badge-info">MySQL</span> {' '}
+                                    <td>
+                                        <span className="badge badge-info">MySQL</span> {' '}
+                                        <span className="badge badge-info">PostgreSQL</span> {' '}
                                         <span className="badge badge-info">MongoDB</span> {' '}
                                         <span className="badge badge-info">Firebase</span> {' '}
                                     </td>

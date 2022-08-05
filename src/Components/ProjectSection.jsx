@@ -43,24 +43,33 @@ const ProjectSection = () => {
 
                             <ProjectComponent 
                                 id={1}
+                                title='MESA- Morples eSkills Learning Platform'
+                                imageURL="assets/projects/mesa/screenshot1.jpg"
+                                stacks={['Reduxjs/tool-kit', 'Reactjs', 'Tailwindcss', 'TypeORM/Expressjs', 'Passportjs', 'PostgreSQL', 'AWS']}
+                                demoURL='https://eskills.moreplexgh.com/'
+                                githubURL='https://github.com/Moreplex-Company-Ltd'
+                            />
+
+                            <ProjectComponent 
+                                id={2}
                                 title='BSL Lunch app'
                                 imageURL="assets/projects/bsl-lunchapp/screnshot1.jpeg"
-                                stacks={['Reduxjs/tool-kit', 'Nodejs', 'Expressjs', 'MySQL', 'AWS']}
+                                stacks={['Reduxjs/tool-kit', 'Reactjs', 'Tailwindcss', 'Nodejs', 'Expressjs', 'MySQL', 'Passportjs', 'AWS']}
                                 demoURL='https://bsl-lunchapp.netlify.app/'
                                 githubURL='https://gitlab.com/bdp-tech/food-app-frontend'
                             />
 
                             <ProjectComponent 
-                                id={2}
+                                id={3}
                                 title='The NotesApp'
                                 imageURL="assets/projects/notes-app/Screenshot8.png"
-                                stacks={['React', 'Reduxjs/tool-kit', 'Nodejs', 'Expressjs', 'MongoDB', ]}
+                                stacks={['React', 'Reduxjs/tool-kit', 'Nodejs', 'Expressjs',  'MongoDB', ]}
                                 demoURL='https://the-notesapp.netlify.app/'
                                 githubURL = 'https://github.com/johnkdunyo/The-NotesApp'
                             />
 
                             <ProjectComponent 
-                                id={3}
+                                id={4}
                                 title='WhatsDev'
                                 imageURL="assets/projects/whatsdev/screenshot1.jpeg"
                                 stacks={['Reactjs', 'Firebase', 'Nodejs', 'nodemailer', 'cron-job' ]}
@@ -68,7 +77,7 @@ const ProjectSection = () => {
                                 githubURL='https://github.com/johnkdunyo/WhatsDev'
                             />
                             <ProjectComponent 
-                                id={4}
+                                id={5}
                                 title='Match the Pairs Game'
                                 imageURL="assets/projects/match-the-pairs/screenshot1.jpeg"
                                 stacks={['Reactjs', 'Chakra-UI', 'firebase']}
@@ -77,7 +86,7 @@ const ProjectSection = () => {
                             />
 
                             <ProjectComponent 
-                                id={5}
+                                id={6}
                                 title='Youtube Clone'
                                 imageURL="assets/projects/youtube-clone/screenshot4.png"
                                 stacks={['Reduxjs/tool-kit', 'Reactjs', 'Axios', 'Youtube API']}

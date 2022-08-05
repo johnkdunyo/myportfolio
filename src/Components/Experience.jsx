@@ -26,16 +26,15 @@ const Experience = () => {
                                 <p className="col text-left">Junior Software Engineer</p>
                                 <p className="col text-right">November 2021 - Present</p>
                             </div>
-                            <p> • Built and optimized a restfulAPI for the company’s lunch ordering application using Nodejs, Expressjs to enhance seamless
-                                lunch ordering in the company
+                            <p> • Built a restful API, developed the server-logic, and maintained the central database for the company’s lunch ordering
+application using Nodejs, Expressjs to ensure low latency responsiveness to requests from the front-end.
                                 <br/>
-                                • Developed and built the server-side logic, defined and maintained the central database of the company’s lunch application
-                                 to ensure high performance and responsiveness to requests from the front-end
+                                • Built a Laravel (PHP) application to automate NEDco power purchase reconciliations by retrying failed transactions, crediting, or debiting customers based on transaction status while saving cost by 20% and improving customer experience.
                                  <br/>
                                 • Developed functional and technical requirements for the lunch ordering application and developed test cases to validate
                                 its functionalities
                             </p>
-                            <span><span className="badge badge-info">Technologies Used</span> HTML5, CSS3, Reactjs, Reduxjs/toolkit, Nodejs, Expressjs, node-cron, AWS </span>
+                            <span><span className="badge badge-info">Technologies Used</span> HTML5, CSS3, Reactjs, Reduxjs/toolkit, Nodejs, Expressjs, MySQL node-cron, AWS </span>
                         </div>
                     </div>
                 </div>
@@ -62,13 +61,16 @@ const Experience = () => {
                                 <p className="col text-right">June 2021 - Present</p>
                             </div>
                             <p>
-                                • Website Development: changes in the look and feel of the official website
+                                • Designed, built and successfully shipped MESA,an eskills learning platform for Moreplex CompanyLtd, using Reactjs,
+Tailwindcss, TypeORM(Expressjs) and PostgresSQL.
                                 <br/>
-                                • Developed an optimized systems architecture for development of the company’s eCommerce and eSkills learning applications to enhance customer
-                                experience and satisfaction
-            
-                                <br/></p>
-                            <span><span className="badge badge-info">Technologies Used</span> HTML5/CSS3, Javascript, Reactjs, PHP, Wordpress, Amazon Web Services (AWS)</span>
+                                • Led team to develop an AI product recommender system using AWS Lex that gathers and analyses customer data and
+provides customer-problem specific product recommendation. (This was funded by MEST Africa).
+                                <br/>
+                                • Designed an optimized systems architecture using AWS cloud services for the company’s general website, eCommerce
+and eSkills sites and implemented them with a team of 2 developers to boost performance and improve customer service
+                            </p>
+                            <span><span className="badge badge-info">Technologies Used</span> HTML5/CSS3, Javascript, Reactjs, Tailwindcss, TypeORM(Expressjs), PostgreSQL,  Wordpress, Amazon Web Services (AWS)</span>
                         </div>
                     </div>
                 </div>
